@@ -1,0 +1,32 @@
+Tuesday:
+
+Bash exercise:
+- | can be used on the command line for "piping". Try to use | and the wc
+  program to get a count of documents inside any directory on your computer.
+
+Higher-Order Functions exercise:
+- Reduce is a common higher order function. It takes an array and "reduces" it
+  to one value based off of the function that is passed to it. Try to fill out
+  the body of reduce to get that functionality
+
+  var seedArray = [1, 2, 3, 4, 5]
+
+  function reduce(array, callback) {
+    ...
+  }
+
+  function seedCallback(total, current) {
+    return total + current
+  }
+
+  console.log(reduce(seedArray, seedCallback))
+
+  15
+
+Thursday:
+
+There is another common higher order function called map (it is my favorite
+one), it takes a collection and returns the same outer type. i.e if you send it
+an array, it returns an array (the inside of the array can change). Try to make
+the higher order function called map. Then call it so that it takes in an array
+of numbers and returns an array with the same length, but with each number incremted by 15.
