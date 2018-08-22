@@ -11,10 +11,21 @@ Also ensure that you have installed the latest updates. Again click on the *Appl
 
 Install the following software by downloading it at these urls:
 
-If you do not already have a preferred editor, then check out [Sublime Text](http://www.sublimetext.com/)
+If you do not already have a preferred editor, then check out [VSCode](https://code.visualstudio.com/)
 
-I will be using vim in class, but sublime is a good alternative if you are newer
-to coding.
+Once you've installed VSCode, make sure to also install the command line tool. 
+
+1. While VSCode is open, on the command palette by pressing `cmd + shift + p`
+2. Type `install command`, and select the first option that reads
+
+```
+Shell Command: Install 'code' command in PATH
+```
+
+3. Close VSCode and any terminal windows you might have open, and reopen the terminal.
+4. Type `code` into the terminal and VSCode should launch.
+
+This is what I will be using in the class, with a few quality of life extensions installed. 
 
 [Google Chrome](https://www.google.com/intl/en-US/chrome/browser/)
 
