@@ -21,7 +21,8 @@ try __kate__ or if you do not already have a preferred editor, then check out
 
 Once you've installed VSCode, make sure to also install the command line tool. 
 
-1. While VSCode is open, on the command palette by pressing `cmd + shift + p`
+1. While VSCode is open, open the command palette by pressing `ctrl + shift + p`
+	- the command palette contains commands that your text editor can perform (eg. creating a new file, copying a file, etc.)
 2. Type `install command`, and select the first option that reads
 
 ```
