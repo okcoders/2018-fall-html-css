@@ -55,7 +55,7 @@ sudo apt-get -y install git nodejs
 ```
 ## Configure Git
 
-Set your global git user name and email. At the terminal, type the following two commands. Press enter after each one:
+Set your global git user name and email. At the terminal, type the following two commands. **Note: The email address should be the same as your github account.** Press enter after each one:
 
 	git config --global user.name "Your Name"
 	git config --global user.email your@email.address
@@ -65,6 +65,8 @@ Set your global git user name and email. At the terminal, type the following two
 SSH Keys are used to establish a secure connection to GitHub and Heroku.
 
 Follow the instructions at GitHub to create and register new SSH keys: [Generating SSH Keys for GitHub](https://help.github.com/articles/generating-ssh-keys).
+
+Note: When you're entering a password during this process it **will not** show up in the terminal. This is for security reasons.
 
 If you get an error when trying to add your keys to the ssh-agent, type the following command at the terminal prompt and press return:
 
