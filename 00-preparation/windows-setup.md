@@ -7,24 +7,6 @@ You must be running a recent version of Windows, at least Windows Vista or highe
 
 Install the following software by downloading it at these urls:
 
-[VSCode](https://code.visualstudio.com/)
-
-This is what I will be using in the class, with a few quality of life extensions installed. 
-
-Once you've installed VSCode, make sure to also install the command line tool. 
-
-1. While VSCode is open, open the command palette by pressing `ctrl + shift + p`
-	- the command palette contains commands that your text editor can perform (eg. creating a new file, copying a file, etc.)
-2. Type `install command`, and select the first option that reads
-
-```
-Shell Command: Install 'code' command in PATH
-```
-
-3. Close VSCode and any terminal windows you might have open, and reopen the terminal.
-4. Type `code` into the terminal and VSCode should launch.
-
-
 [Google Chrome](https://www.google.com/intl/en-US/chrome/browser/).
 
 We will be doing all web development in Google Chrome because of its excellent developer tools.
@@ -32,6 +14,22 @@ We will be doing all web development in Google Chrome because of its excellent d
 [Git Bash](http://msysgit.github.io/)
 
 Windows does come with a built-in command prompt, but we will be using another Terminal emulator with built-in support for git, the version control software that works with GitHub. *Do not use the built-in command prompt*. Use Git Bash.
+
+
+[VSCode](https://code.visualstudio.com/)
+
+This is what I will be using in the class, with a few quality of life extensions installed. 
+
+Once you've installed VSCode, double check that the `code` command works inside of git bash. 
+
+1. open git bash
+2. type `code --v`
+
+If you get output other than a `command not found` error, you're good to go.
+
+To open a file in VSCode, type `code <name of file>` into git bash (make sure you're in the right directory).
+
+To open a folder in VSCode, type `code .` into git bash, while you're in the directory. Or simply the path to the folder.
 
 ## Configure Git
 
