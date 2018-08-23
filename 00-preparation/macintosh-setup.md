@@ -26,6 +26,14 @@ Shell Command: Install 'code' command in PATH
 3. Close VSCode and any terminal windows you might have open, and reopen the terminal.
 4. Type `code` into the terminal and VSCode should launch.
 
+To open a file in VSCode, type `code <name of file>` into the terminal (make sure you're in the right directory).
+
+To open a folder in VSCode, type `code .` into the terminal, while you're in the directory. Or simply the path to the folder.
+
+## Configure Git
+
+Set your global git user name and email. At the terminal, type the following two commands. Press enter after each one:
+
 This is what I will be using in the class, with a few quality of life extensions installed. 
 
 [Google Chrome](https://www.google.com/intl/en-US/chrome/browser/)
